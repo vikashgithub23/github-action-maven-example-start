@@ -5,7 +5,9 @@ name: vIKAS Java CI with Maven
 
 on:
   push:
-    branches: [ master ]
+    branches: 
+     - master
+     - Feature_pom
   pull_request:
     branches: [ master ]
 
